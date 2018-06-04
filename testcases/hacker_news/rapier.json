@@ -1,0 +1,11 @@
+{
+  "name": "Hacker News",
+  "description": "Scrapes the titles+links of the newest HN posts.",
+  "version": "1.0.0",
+  "author": "Tobechukwu Osakwe",
+  "sandbox": {
+    "hosts": [
+      "news.ycombinator.com"
+    ]
+  }
+}
