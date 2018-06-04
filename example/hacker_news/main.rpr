@@ -1,4 +1,5 @@
 Http.getHTML('https://news.ycombinator.com/newest')
-    |> querySelectorAll('a.storylink')
+    |> Html.parse
+    |> Html.querySelectorAll('a.storylink')
     |> map(el => { title: el.text, link: el.attribute('href') })
     |> Json.stringify

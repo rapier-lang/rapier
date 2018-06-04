@@ -1,0 +1,14 @@
+{
+  "name": "Rapier Screenshotter",
+  "description": "Screenshots the Rapier Github repo.",
+  "version": "1.0.0",
+  "author": "Tobechukwu Osakwe",
+  "sandbox": {
+    "files": [
+      "screenshot.png"
+    ],
+    "hosts": [
+      "github.com"
+    ]
+  }
+}

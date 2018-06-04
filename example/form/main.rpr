@@ -1,0 +1,6 @@
+Browser.new()
+    |> Browser.go('https://github.com')
+    |> Browser.type('input.header-search-input', 'rapier-lang/rapier')
+    |> Browser.press(KeyCode.ENTER)
+    |> Browser.screenshot('png')
+    |> File.write('screenshot.png')
